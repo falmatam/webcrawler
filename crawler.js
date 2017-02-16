@@ -32,12 +32,14 @@ request(CRAWL_URL, function(error, response, body) {
      
      //Collect and Display links on site (relative and absolute)
      collectInternalLinks($);
-     //var word = prompt("What word would you like to search: ");
-     if(exploreForWord($,"engineer")){
-     	console.log("\nTrue");
+     var word = "engineer";
+     console.log("\n\nSearching for occurrence of the word '"+word+
+     	"' in DOM...")
+     if(exploreForWord($,word)){
+     	console.log("Word '"+word+"' found! :D");
      }
      else{
-     	console.log("\nFalse");
+     	console.log("Word '"+word+"' not found.. :(");
      }
      
    }
