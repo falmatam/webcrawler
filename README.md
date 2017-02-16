@@ -8,6 +8,7 @@ Code is fairly straight forward -- follow comments in code to understand.
 Sample output after running "node crawler.js" on NodeJS CLI:
 
 
+
 Visiting page --> http://www.falmata.com
 
 Status code: 200
