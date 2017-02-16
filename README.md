@@ -5,7 +5,7 @@ A quick little webcrawler hack I implemented using JavaScript and NodeJS.
 Code is fairly straight forward -- follow comments in code to understand.
 
 
-Sample NodeJS console/command-line output after running "node crawler.js":
+Sample output after running "node crawler.js" on NodeJS CLI:
 
 
 Visiting page --> http://www.falmata.com
